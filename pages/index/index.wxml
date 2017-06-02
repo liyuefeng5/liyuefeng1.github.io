@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="classname" data-listid="11" catchtap="shoufenqin">1111111111111111</view>
+  <view class="box" data-listid="11" animation="{{ (shoufenqinName == 11) ? animationShoufenqin : ''}}">
+    <view class="list" wx:for="{{list}}" wx:key="" animation="{{ (taName == item.id) ? animationData : ''}}" catchtap="alllist">
+      <text class="list-left">{{item.apple}}{{item.id}}</text>
+      <text class="list-right" catchtap="del" data-cid="{{item.id}}">删除</text>
+    </view>
+  </view>
+</view>
+<view class="container">
+  <view class="classname" data-listid="22" catchtap="shoufenqin">22222222222222222</view>
+  <view class="box" data-listid="22" animation="{{ (shoufenqinName == 22) ? animationShoufenqin : ''}}">
+    <view class="list" wx:for="{{list}}" wx:key="" animation="{{ (taName == item.id) ? animationData : ''}}" catchtap="alllist">
+      <text class="list-left">{{item.apple}}{{item.id}}</text>
+      <text class="list-right" catchtap="del" data-cid="{{item.id}}">删除</text>
+    </view>
+  </view>
+</view>
+<view class="container">
+  <view class="classname" data-listid="33" catchtap="shoufenqin">33333333333333333</view>
+  <view class="box" data-listid="33" animation="{{ (shoufenqinName == 33) ? animationShoufenqin : ''}}">
+    <view class="list" wx:for="{{list}}" wx:key="" animation="{{ (taName == item.id) ? animationData : ''}}" catchtap="alllist">
+      <text class="list-left">{{item.apple}}{{item.id}}</text>
+      <text class="list-right" catchtap="del" data-cid="{{item.id}}">删除</text>
+    </view>
+  </view>
+</view>

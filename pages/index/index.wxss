@@ -1,0 +1,17 @@
+.list{
+  height: 30px;
+  line-height: 30px;
+  border-bottom:1px solid;
+}
+.list-right{
+  float: right
+}
+.box{
+	height:0px;
+	overflow:hidden;
+}
+.classname{
+	border-bottom:1px solid yellow;
+	height: 40px;
+	line-height: 40px;
+}
